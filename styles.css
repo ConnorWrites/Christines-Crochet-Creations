@@ -4,7 +4,7 @@
 .logo {width: auto; height: 100%; border: 1px solid #ff379b; margin-right: 20px; float: left; }
 .navbar { font-size: calc(16px +1vw); }
 .nav { display: flex; list-style-type: none; justify-content: space-evenly;}
-.info {margin-top: 50px; }
+.info {text-align: center; margin-top: 50px; }
 .orders .more .about .gallery {width: 100vw; margin-top: 25px; }
 .pics {width: 100%; display: block;}
 .image {max-width: 300px; max-height: 200px; object-fit: cover; }
