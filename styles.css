@@ -1,1 +1,2 @@
-
+* {font-family: marker felt, bradley hand, times new roman; }
+header {width: 100vw; height: 9vh; display: flex; background-color: linear-gradient(white, azure); color: pink; position:fixed; border-bottom: 2px, solid, blue;
