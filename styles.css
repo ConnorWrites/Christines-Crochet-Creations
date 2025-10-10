@@ -1,10 +1,10 @@
 * {font-family: marker felt, bradley hand, times new roman; }
 .menu {width: 100vw; height: 7vh; background: linear-gradient(to right, #fed2e8, #ff379b); position:fixed; top: 0px; left: 0px; border-bottom: 1px solid pink; z-index: 1; overflow: hidden; color: blue; }
 .heading {Width: 100%; height: 100%; display: flex; }
-.logo {width: auto; height:100%; border: 1px solid #ff379b; margin-right: 20px; float: left; }
-.navbar { display: flex; font-size: calc(16px +1vw); }
-.nav { display: inline-block; list-style-type: none; justify-content: space-evenly;}
-.info {margin-top: 60px; }
-.orders .more .about .gallery {width:100vw; margin-top: 25px; }
-.pics {width: 100%; display:block;}
+.logo {width: auto; height: 100%; border: 1px solid #ff379b; margin-right: 20px; float: left; }
+.navbar { font-size: calc(16px +1vw); }
+.nav { display: flex; list-style-type: none; justify-content: space-evenly;}
+.info {margin-top: 50px; }
+.orders .more .about .gallery {width: 100vw; margin-top: 25px; }
+.pics {width: 100%; display: block;}
 .image {max-width: 300px; max-height: 200px; object-fit: cover; }
