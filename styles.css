@@ -1,6 +1,6 @@
 * {font-family: marker felt, bradley hand, times new roman; }
-.menu {width: 100vw; height: 7vh; display: flex; background: linear-gradient(to right, #fed2e8, #ff379b); position:fixed; border-bottom: 1px solid pink; z-index: 1; overflow: hidden; justify-content: space-evenly; margin: 0; }
-.logo {max-width: 7vw; max-height: 6vh; border: 1px solid #ff379b; padding-right: 20px; float: left; }
+.menu {width: 100vw; height: 7vh; display: flex; background: linear-gradient(to right, #fed2e8, #ff379b); position:fixed; border-bottom: 1px solid pink; z-index: 1; overflow: hidden; margin: 0; }
+.logo {max-width: 8vw; max-height: 6vh; border: 1px solid #ff379b; margin-right: 20px; float: left; }
 .info .orders .more .about .gallery {padding-top: 25px; }
 .pics {display-flex; }
 .image {max-width: 300px; max-height: 200px; object-fit: cover;  }
