@@ -6,5 +6,5 @@
 .nav { display: inline-block; list-style-type: none; justify-content: space-evenly;}
 .info {position: absolute; top: 200px; }
 .orders .more .about .gallery {margin-top: 25px; }
-.pics {display:flex; text-align: center;}
+.pics {display:flex;}
 .image {max-width: 300px; max-height: 200px; object-fit: cover; }
