@@ -2,7 +2,7 @@
 .menu {width: 100vw; height: 7vh; background: linear-gradient(to right, #fed2e8, #ff379b); position:fixed; top: 0px; left: 0px; border-bottom: 1px solid pink; z-index: 1; overflow: hidden; color: blue; }
 .heading {Width: 100%; height: 100%; display: flex; }
 .logo {height:100%; border: 1px solid #ff379b; margin-right: 20px; float: left; }
-.info {margin-top: 50px; }
+.info {position absolute; top: 50px; }
 .orders .more .about .gallery {margin-top: 25px; }
 .pics {display-flex; }
 .image {max-width: 300px; max-height: 200px; object-fit: cover; }
