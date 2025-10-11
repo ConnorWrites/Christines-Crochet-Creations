@@ -51,19 +51,19 @@ body { background: #B47EDE; }
 .full-img span[class="X"] {position: absolute; 
                            top: 5%; 
                            right: 5%; 
-                           font-size: 30px; 
+                           font-size: 35px; 
                            color: #fff; 
                            cursor: pointer; }
 .full-img span[class="left"] {position: absolute; 
                               top: 45%; 
                               left: 5%; 
-                              font-size: 60px; 
+                              font-size: 55px; 
                               color: #fff; 
                               cursor: pointer; }
 .full-img span[class="right"] {position: absolute; 
                                top: 45%; 
                                right: 5%; 
-                               font-size: 60px; 
+                               font-size: 55px; 
                                color: #fff; 
                                cursor: pointer; }
 #fullImg {opacity: 1; 
