@@ -54,7 +54,10 @@
 <section id="Gallery" class="gallery"><h2>Some of the many things Christine made:</h2>
 	<div class="full-img" id="fullImgBox">
 		<img src="https://i.imgur.com/edoUt12.jpeg" id="fullImg" />
-		<span onclick="closeFullImg()">X</span>
+		<span class="X" onclick="closeFullImg()">X</span>
+		<span class="left" onclick="previousFullImg()"><</span>
+		<span class="right" onclick="nextFullImg()">></span>
+		
 	</div>
 <div class="pics">
 <img src="https://i.imgur.com/edoUt12.jpeg" onclick="openFullImg(this.src)" alt="Irish Family" loading="lazy" />
@@ -103,20 +106,58 @@
 
 </main>
 <footer>Endless Imagination</footer>
+	
 	<script>
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+  var images = document.querySelectorAll(".gallery .pics img");
+  var currentIndex = 0;
 
-		var  fullImgBox = document.getElementById("fullImgBox");
-		var  fullImg = document.getElementById("fullImg");
+  function openFullImg(pic) {
+    for (let i = 0; i < images.length; i++) {
+      if (images[i].src === pic) {
+        currentIndex = i;
+        break;
+      }
+    }
+    fullImgBox.style.display = "flex";
+    fullImg.src = pic;
+  }
 
-		function openFullImg(pic){
-			fullImgBox.style.display = "flex";
-			fullImg.src = pic;
-		}
+  function closeFullImg() {
+    fullImgBox.style.display = "none";
+  }
 
-		function closeFullImg() {
-			fullImgBox.style.display = "none";
-		}
+  function nextFullImg() {
+    changeImage(currentIndex + 1);
+  }
+
+  function previousFullImg() {
+    changeImage(currentIndex - 1);
+  }
+
+  function changeImage(newIndex) {
+    if (newIndex >= images.length) newIndex = 0;
+    if (newIndex < 0) newIndex = images.length - 1;
+
+    fullImg.classList.add("fade-out");
+
+    setTimeout(() => {
+      fullImg.src = images[newIndex].src;
+      currentIndex = newIndex;
+      fullImg.classList.remove("fade-out");
+    }, 400); 
+  }
+
+  document.addEventListener("keydown", function(e) {
+    if (fullImgBox.style.display === "flex") {
+      if (e.key === "ArrowRight") nextFullImg();
+      if (e.key === "ArrowLeft") previousFullImg();
+      if (e.key === "Escape") closeFullImg();
+    }
+  });
+</script>
 		
-	</script>
+</script>
 </body>
 </html>
