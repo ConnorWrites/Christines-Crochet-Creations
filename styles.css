@@ -25,7 +25,7 @@ body { background: #B47EDE; }
 .welcome {text-align: center; 
           margin-top: 70px; }
 .info .orders .more .about .gallery {width: 100vw; 
-                                     margin-top: 25px; }
+                                     margin-top: 65px; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
