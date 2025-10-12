@@ -23,7 +23,8 @@ body { background: #B47EDE; }
         margin-right: 60px; 
         color: black;}
 .welcome {text-align: center; 
-          margin-top: 70px; font-size: 3rem; }
+          margin-top: 70px; font-size: 2rem; }
+p {font-size: 1rem;}
 .info .orders .more .about .gallery {width: 100vw; 
                                      margin-top: 150px; }
 .pics {width: 80%; 
