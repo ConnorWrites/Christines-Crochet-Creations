@@ -24,7 +24,7 @@ body { background: #FFD1DC; }
         color: black;}
 .welcome {text-align: center; 
           margin-top: -50px; font-size: 2rem; color: #FBB302; }
-.welcome-img {display: block; position: absolute; top:40px; margin: 0 auto; width: 150px; height: auto; align-items:center;}
+.welcome-img {display: block; position: absolute; top:60px; left: 50%; margin: 0 auto; width: 150px; height: auto; }
 p {font-size: 1rem;}
 .info .orders .more .about .gallery {width: 100vw; 
                                      margin-top: 150px; }
