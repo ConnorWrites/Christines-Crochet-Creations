@@ -26,9 +26,10 @@ body { background: #FFD1DC; }
           font-size: 2rem; 
           color: #77C3EC; 
           margin-top: 50px; }
-textPath {font-size: 2rem; 
-          color:#77C3EC; 
-          margin-top:-20px; }
+textPath {font-size: 2.5rem; 
+          color:#77C3EC;
+          fill:#77C3EC; 
+          margin-top:-30px; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
