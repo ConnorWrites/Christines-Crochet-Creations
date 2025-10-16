@@ -25,7 +25,8 @@ body { background: #FFD1DC; }
 .welcome {text-align: center; 
           font-size: 2rem; 
           color: #77C3EC; 
-          margin-top: 80px; }
+          margin-top: 50px; }
+h3 { }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
