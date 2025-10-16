@@ -24,7 +24,8 @@ body { background: #FFD1DC; }
         color: black;}
 .welcome {text-align: center; 
           font-size: 2rem; 
-          color: #77C3EC; }
+          color: #77C3EC; 
+          margin-top: 30px; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
