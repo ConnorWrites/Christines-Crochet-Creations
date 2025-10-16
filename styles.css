@@ -2,7 +2,7 @@
 body { background: #FFD1DC; }
 .menu {width: 100vw; 
        height: 7vh; 
-       background: linear-gradient(to right, #9400D3 8%, #ff2692 30%, #FFB7CE 60%, #FFD1DC 100%); 
+       background: linear-gradient(to right, #FFD1DC 0%, #FFB7CE 50%, #FFD1DC 100%); 
        position:fixed; top: 0px; left: 0px; 
        border-bottom: 1px solid pink; 
        z-index: 1; 
