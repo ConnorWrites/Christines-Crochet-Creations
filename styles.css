@@ -26,9 +26,8 @@ body { background: #FFD1DC; }
           font-size: 2rem; 
           color: #77C3EC; 
           margin-top: 50px; }
-.text { font-family: Norican; 
-        fill: #77C3EC; }
-#curve { fill: transparent; }
+#curve {fill: transparent; }
+.text {fill: #77C3EC; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
