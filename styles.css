@@ -27,7 +27,8 @@ body { background: #FFD1DC; }
           color: #77C3EC; 
           margin-top: 50px; }
 textPath {font-size: 2rem; 
-          color:#77C3EC; }
+          color:#77C3EC; 
+          margin-top:-20px; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
