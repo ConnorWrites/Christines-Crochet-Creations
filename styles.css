@@ -35,7 +35,7 @@ p {font-size: 1rem;}
        grid-gap: 30px;}
 .pics img {width:100%; 
            cursor: pointer; }
-.pics img:hover {transform:scale(0.9) rotate(-8deg); 
+.pics img:hover {transform:scale(0.9) rotate(-8 deg); 
                  border-radius:20px; 
                  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2); } 
 .full-img {width: 100%; 
