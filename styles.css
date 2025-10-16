@@ -26,6 +26,7 @@ body { background: #FFD1DC; }
           font-size: 2rem; 
           color: #77C3EC; 
           margin-top: 50px; }
+.welcome h1 { margin-top:-15px; }
 h3 { }
 .welcome-img {display: block; 
               margin: 0 auto; 
