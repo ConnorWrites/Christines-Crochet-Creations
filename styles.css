@@ -2,7 +2,7 @@
 body { background: #B47EDE; }
 .menu {width: 100vw; 
        height: 7vh; 
-       background: linear-gradient(to right, #ff2692 10%, #9400D3 50%, #ff2692 85%); 
+       background: linear-gradient(to right, #9400D3, #ff2692); 
        position:fixed; top: 0px; left: 0px; 
        border-bottom: 1px solid pink; 
        z-index: 1; 
@@ -68,5 +68,5 @@ p {font-size: 1rem;}
                                color: #fff; 
                                cursor: pointer; }
 #fullImg {opacity: 1; 
-          transition: opacity 0.3s ease-in-out; }
+          transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
