@@ -1,8 +1,8 @@
 * { font-family: marker felt, bradley hand, times new roman; }
-body { background: #B47EDE; }
+body { background: #FFD1DC; }
 .menu {width: 100vw; 
        height: 7vh; 
-       background: linear-gradient(to right, #9400D3, #ff2692); 
+       background: linear-gradient(to right, #9400D3 15%, #ff2692 65%, #FFB7CE 100%); 
        position:fixed; top: 0px; left: 0px; 
        border-bottom: 1px solid pink; 
        z-index: 1; 
