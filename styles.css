@@ -2,7 +2,7 @@
 body { background: #FFD1DC; }
 .menu {width: 100vw; 
        height: 7vh; 
-       background: linear-gradient(to right, #9400D3 15%, #ff2692 65%, #FFB7CE 100%); 
+       background: linear-gradient(to right, #9400D3 8%, #ff2692 30%, #FFB7CE 70%); 
        position:fixed; top: 0px; left: 0px; 
        border-bottom: 1px solid pink; 
        z-index: 1; 
@@ -24,7 +24,7 @@ body { background: #FFD1DC; }
         color: black;}
 .welcome {text-align: center; 
           margin-top: 70px; font-size: 2rem; color: #FBB302; }
-.welcome-img {width:auto; height: 100%; }
+.welcome-img {width: 250px; height: auto; }
 p {font-size: 1rem;}
 .info .orders .more .about .gallery {width: 100vw; 
                                      margin-top: 150px; }
