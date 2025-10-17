@@ -28,13 +28,14 @@ body { background: #FFD1DC; }
           margin-top: 50px; }
 textPath {font-size: 2.3rem; 
           color:#77C3EC;
-          fill:#77C3EC; margin-top: -40px; }
+          fill:#77C3EC; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 200px; 
-              height: auto; }
-h3 {font-family: bradley hand; fill:#77C3EC; }
-p {font-size: 1rem;}
+              height: auto; 
+              margin-bottom: -35px; }
+h3 {font-family: bradley hand; color:#77C3EC; }
+p {font-size: 1.5rem;}
 .info .orders .more .about .gallery {width: 100vw; padding-top:15px; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
