@@ -28,12 +28,12 @@ body { background: #FFD1DC; }
           margin-top: 50px; }
 textPath {font-size: 2.3rem; 
           color:#77C3EC;
-          fill:#77C3EC; }
+          fill:#77C3EC; 
+          margin-top: -20px; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
-              height: auto;
-              margin-bottom: -50px; }
+              height: auto; }
 p {font-size: 1rem;}
 .info .orders .more .about .gallery {width: 100vw; 
                                      margin-top: 150px; }
