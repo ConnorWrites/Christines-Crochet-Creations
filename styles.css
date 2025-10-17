@@ -28,12 +28,12 @@ body { background: #FFD1DC; }
           margin-top: 50px; }
 textPath {font-size: 2.3rem; 
           color:#77C3EC;
-          fill:#77C3EC; 
-          margin-top: -50px; }
+          fill:#77C3EC; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 150px; 
-              height: auto; }
+              height: auto; 
+              margin-bottom: -35px; }
 h3 {font-family: bradley hand; fill:#77C3EC; }
 p {font-size: 1rem;}
 .info .orders .more .about .gallery {width: 100vw; 
