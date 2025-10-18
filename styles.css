@@ -33,10 +33,12 @@ textPath {font-size: 2.3rem;
               margin: 0 auto; 
               width: 200px; 
               height: auto; 
-              margin-bottom: -35px; }
-h3 {font-family: bradley hand; color:#77C3EC; }
+              margin-bottom: -55px; }
+h3 {font-family: bradley hand; 
+    color:#4b0082; }
 p {font-size: 1.5rem;}
-.info .orders .more .about .gallery {width: 100vw; padding-top:15px; }
+.info .orders .more .about .gallery {width: 100vw; 
+                                     padding-top:15px; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
