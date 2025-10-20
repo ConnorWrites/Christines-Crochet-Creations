@@ -1,4 +1,4 @@
-* { font-family: marker felt, bradley hand, times new roman; }
+* { font-family: marker felt, bradley hand, book antiqua, times new roman; }
 body { background: #FFD1DC; }
 .menu {width: 100vw; 
        height: 7vh; 
@@ -16,10 +16,10 @@ body { background: #FFD1DC; }
        border: 1px solid #ff379b; 
        margin-right: 20px; 
        float: left; }
-.nav {display:flex; 
+.nav {display: flex; 
       list-style-type: none; 
       font-size: 1.1rem; 
-      justify-content: space-evenly; }
+      justify-content: space-between; }
 .nav a {justify-content: space-evenly; 
         color: black;}
 .welcome {text-align: center; 
