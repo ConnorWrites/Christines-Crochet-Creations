@@ -60,13 +60,13 @@
 <section id="Orders_and_enquiries" 
 		 class="orders">
 	<fieldset>
-		<h2><em>Orders & Enquiries.</em></h2>
+		<h2>Orders & Enquiries.</h2>
 		<p class="custom">Every order is hand crafted and custom made, unique for every customer.</p>
-		<input class="choose" type="radio" selected>Toy</input>
+		<div class="inputs"><input class="choose" type="radio" selected>Toy</input>
 		<input class="choose" type="radio">Clothing</input>
 		<input class="choose" type="radio">Blanket</input>
 		<input class="choose" type="radio">Bag</input>
-		<input class="choose" type="radio">Gift</input>
+		<input class="choose" type="radio">Gift</input></div>
 		<form id="form" 
         class="form" 
         action="https://www.freecodecamp.com/email-submit">
@@ -80,13 +80,10 @@
     <div class="text"><p class="query">Describe your order:</p><textarea id="textbox" 
            name="textbox" 
            type="textbox"
-           rows="10"
-           cols="55" 
+           rows="5"
+           cols="40" 
            placeholder="Describe your order, including all details and measurements." ></textarea></div>
-    <div class="button1"><input class="submit" id="submit" 
-           type="submit"></input>
-         </div>  
-  </form>
+   </form>
 		<button type="submit">Submit</button>
 </fieldset>
 </section>
