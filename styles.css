@@ -90,3 +90,4 @@ h3 {font-family: bradley hand;
 #fullImg {opacity: 1; 
           transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
+footer {text-align: center; }
