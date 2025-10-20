@@ -19,8 +19,7 @@ body { background: #FFD1DC; }
 .nav {display:flex; 
       list-style-type: none; 
       font-size: 1.1rem; 
-      justify-content: space-evenly; 
-      margin-left: 20px; }
+      justify-content: space-evenly; }
 .nav a {justify-content: space-evenly; 
         color: black;}
 .welcome {text-align: center; 
