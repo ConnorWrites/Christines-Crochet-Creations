@@ -18,7 +18,8 @@ body { background: #FFD1DC; }
        float: left; }
 .nav {display:flex; 
       list-style-type: none; 
-      font-size: 1.1rem; }
+      font-size: 1.1rem; 
+      justify-content: center; }
 .nav a {justify-content: space evenly; 
         color: black;}
 .welcome {text-align: center; 
@@ -40,10 +41,12 @@ textPath {font-size: 2.3rem;
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
-p {font-size: 1.3rem; 
-   text-align: center; }
-.info .orders .more .about .gallery {width: 100vw; 
-                                     padding-top:15px; }
+.browse {font-size: 1.3rem; 
+         text-align: center; 
+         color: rgb(137, 190, 255); }
+.info .orders .about .gallery {width: 100vw; 
+                               padding-top:20px; }
+.custom .query .christine {  }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
