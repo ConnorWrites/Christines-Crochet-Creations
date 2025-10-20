@@ -28,7 +28,7 @@ body { background: #FFD1DC; }
           margin-top: 50px; }
 textPath {font-size: 2.3rem; 
           color:#77C3EC;
-          fill:#77C3EC; }
+          fill:#77C3EC; margin-bottom: -20px; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 200px; 
@@ -36,7 +36,8 @@ textPath {font-size: 2.3rem;
               margin-bottom: -75px; }
 .stuffz {font-size: 3rem;
          text-align: center;
-         color: rgb(137, 207, 255); }
+         color: rgb(137, 190, 255); 
+         margin-top: -10px; }
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
