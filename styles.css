@@ -48,11 +48,12 @@ h3 {font-family: bradley hand;
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
-.icons {display: flex; 
+.icons {display: inline-block; 
         font-size: 2rem;
-        text-align: center;
         justify-content: space-evenly; }
-video {text-align: center; 
+video {display: block;
+       margin-right: auto;
+       margin-left: auto;
        padding: 10px; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
@@ -98,4 +99,5 @@ video {text-align: center;
           transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
 footer {text-align: center; 
-        font-size: 1.5rem; }
+        font-size: 1.5rem; 
+        Padding: 15px; }
