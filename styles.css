@@ -45,10 +45,12 @@ h3 {font-family: bradley hand;
 .browse {font-size: 1.3rem; 
          text-align: center; 
          color: rgb(137, 190, 255); }
+.inputs { padding: 5px; }
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
 
+video {text-align: center; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
@@ -92,4 +94,5 @@ h3 {font-family: bradley hand;
 #fullImg {opacity: 1; 
           transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
-footer {text-align: center; }
+footer {text-align: center; 
+        font-size: 1.5rem; }
