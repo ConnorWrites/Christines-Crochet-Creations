@@ -19,7 +19,8 @@ body { background: #FFD1DC; }
 .nav {display:flex; 
       list-style-type: none; 
       font-size: 1.1rem; 
-      justify-content: space-evenly; }
+      justify-content: space-evenly; 
+      margin-left: 20px; }
 .nav a {justify-content: space-evenly; 
         color: black;}
 .welcome {text-align: center; 
@@ -47,6 +48,7 @@ h3 {font-family: bradley hand;
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
+
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
