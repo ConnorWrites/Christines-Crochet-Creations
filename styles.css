@@ -18,7 +18,8 @@ body { background: #FFD1DC; }
 .logo {width: auto; 
        height: 90%; 
        border: 1px solid #ff379b; 
-       float: left; }
+       float: left;
+       margin-right:20px; }
 .nav {display: flex; 
       gap: 25px;
       list-style: none;
