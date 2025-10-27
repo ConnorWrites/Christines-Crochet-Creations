@@ -15,10 +15,11 @@ body { background: #FFD1DC; }
           justify-content: space-between; 
           height: 100%;
           padding: 0 30px; }          
-.logo {width: 20%; 
-       height: auto; 
-       border: 1px solid #ff379b; 
-       float: left; }
+.logo {width: 15vw;
+       max-width: 200px;
+       height: auto;
+       border: 1px solid #ff379b;
+       display: block; }
 .nav {display: flex; 
       gap: 25px;
       list-style: none;
