@@ -57,8 +57,9 @@ h3 {font-family: bradley hand;
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
-.icons {display: inline-block; 
-        font-size: 2rem;
+.icons {display: flex; 
+        flex-direction: grid;
+        font-size: 3rem;
         justify-content: space-evenly; }
 video {display: block;
        margin-right: auto;
