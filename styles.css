@@ -19,7 +19,8 @@ body { background: #FFD1DC; }
        max-width: 200px;
        height: 7vh;
        border: 1px solid #ff379b;
-       float: left; }
+       float: left; 
+       margin-right: 20px; }
 .nav {display: flex; 
       list-style: none;
       margin: 0;
@@ -57,7 +58,7 @@ h3 {font-family: bradley hand;
                                padding-top:20px; }
 .custom .query .christine {  }
 .icons {display: flex; 
-        flex-direction: grid;
+        flex-direction: row;
         font-size: 3rem;
         justify-content: space-evenly; }
 video {display: block;
