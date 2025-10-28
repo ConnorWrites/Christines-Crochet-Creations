@@ -17,7 +17,7 @@ body { background: #FFD1DC; }
           padding: 0 30px; }          
 .logo {width: 95%;
        max-width: 200px;
-       height: auto;
+       height: 6vh;
        border: 1px solid #ff379b; }
 .nav {display: flex; 
       gap: 25px;
