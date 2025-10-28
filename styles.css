@@ -15,10 +15,11 @@ body { background: #FFD1DC; }
           justify-content: space-between; 
           height: 100%;
           padding: 0 30px; }          
-.logo {width: 95%;
+.logo {width: auto;
        max-width: 200px;
-       height: 6vh;
-       border: 1px solid #ff379b; }
+       height: 7vh;
+       border: 1px solid #ff379b;
+       float: left; }
 .nav {display: flex; 
       gap: 25px;
       list-style: none;
@@ -43,6 +44,7 @@ textPath {font-size: 2.3rem;
               margin-bottom: -75px; }
 .stuffz {font-size: 3rem;
          text-align: center;
+         justify-content: space-between;
          color: rgb(137, 190, 255); 
          margin-top: -10px; }
 h3 {font-family: bradley hand; 
