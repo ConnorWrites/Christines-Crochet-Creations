@@ -21,7 +21,6 @@ body { background: #FFD1DC; }
        border: 1px solid #ff379b;
        float: left; }
 .nav {display: flex; 
-      gap: 25px;
       list-style: none;
       margin: 0;
       padding: 0;
