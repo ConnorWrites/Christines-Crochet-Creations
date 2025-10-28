@@ -54,12 +54,15 @@ h3 {font-family: bradley hand;
 .browse {font-size: 1.3rem; 
          text-align: center; 
          color: rgb(137, 190, 255); }
-.inputs { padding: 5px; }
+.inputs {display: flex;
+         flex-direction: row;
+         padding: 10px; }
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
 .icons {display: flex; 
         flex-direction: row;
+        padding: 10px;
         font-size: 3rem;
         justify-content: space-evenly; }
 video {display: block;
