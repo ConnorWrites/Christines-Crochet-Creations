@@ -57,13 +57,17 @@ h3 {font-family: bradley hand;
 .inputs {display: flex;
          flex-direction: row;
          padding: 10px; }
+.radios {display: flex;
+         flex-direction: column;
+         padding: 10px; }
 .info .orders .about .gallery {width: 100vw; 
                                padding-top:20px; }
 .custom .query .christine {  }
 .icons {display: flex; 
         flex-direction: row;
-        padding: 20px;
-        font-size: 5rem;
+        padding: 25px;
+        margin-bottom: 10px;
+        font-size: 4rem;
         justify-content: space-evenly; }
 video {display: block;
        margin-right: auto;
