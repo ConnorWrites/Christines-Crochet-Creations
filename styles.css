@@ -19,7 +19,7 @@ body { background: #FFD1DC; }
        height: 7vh;
        border: 1px solid #ff379b;
        float: left; 
-       margin-right: 20px; }
+       margin-right: 25px; }
 .nav {display: flex; 
       list-style: none;
       margin-left: 10px;
@@ -27,7 +27,9 @@ body { background: #FFD1DC; }
       font-size: 1.1rem; }
 .nav a {text-decoration: none;
         color: black;
-        font-weight: 500; }
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 10px; }
 .nav a:hover {color: #ff379b; }
 .welcome {text-align: center; 
           font-size: 2rem; 
@@ -42,11 +44,11 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-.stuff {font-size: 3rem;
-         text-align: center;
-         justify-content: space-between;
-         color: rgb(137, 190, 255); 
-         margin-top: -10px; }
+.span {font-size: 3rem;
+       text-align: center;
+       justify-content: space-between;
+       color: rgb(137, 190, 255); 
+       margin-top: -10px; }
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
