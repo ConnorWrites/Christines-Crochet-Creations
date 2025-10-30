@@ -62,8 +62,8 @@ h3 {font-family: bradley hand;
 .custom .query .christine {  }
 .icons {display: flex; 
         flex-direction: row;
-        padding: 10px;
-        font-size: 3rem;
+        padding: 20px;
+        font-size: 5rem;
         justify-content: space-evenly; }
 video {display: block;
        margin-right: auto;
