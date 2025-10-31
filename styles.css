@@ -18,7 +18,8 @@ body { background: #FFD1DC; }
 .logo {height: 7vh;
        width: auto;
        border: 1px solid #ff379b;
-       float: left; 
+       float: left;
+       margin-top: 2px;
        margin-right: 25px; }
 .nav {display: flex;
       flex-direction: row;
