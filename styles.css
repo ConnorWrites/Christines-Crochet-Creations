@@ -43,9 +43,7 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-span {display: inline;
-      font-size: 3rem;
-      justify-content: space-evenly;
+span {font-size: 3rem;
       color: rgb(137, 190, 255); 
       margin-top: -10px; }
 h3 {font-family: bradley hand; 
