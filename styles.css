@@ -1,5 +1,5 @@
 * { font-family: marker felt, bradley hand, book antiqua, times new roman; }
-body { background: rgba(255, 20, 147, 0.3); }
+body { background: rgba(255, 20, 147, 0.2); }
 .menu {width: 100%;
        height: 7vh;
        background: linear-gradient(to right, #FFD1DC 10%, #FFB7CE 50%, #FFD1DC 90%);
@@ -18,7 +18,6 @@ body { background: rgba(255, 20, 147, 0.3); }
        width: auto;
        border: 1px solid #ff379b;
        float: left;
-       margin-top: 5px;
        margin-right: 25px; }
 .nav {display: flex;
       flex-direction: row;
@@ -68,7 +67,7 @@ button {--c: red;
                       radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%,
                       conic-gradient(from -45deg at 50% 85.5%,var(--c) 90deg,#0000 0) bottom/100% 50%;
         background-repeat: no-repeat; 
-        margin-top:-25px;
+        margin-top: -50px;
         font-size: 2rem; }
 button:hover {color: #ff379b; }
 .info .orders .about .gallery {width: 100vw; 
