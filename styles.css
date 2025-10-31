@@ -46,7 +46,7 @@ textPath {font-size: 2.3rem;
               margin-bottom: -75px; }
 span {font-size: 3rem;
       text-align: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
       color: rgb(137, 190, 255); 
       margin-top: -10px; }
 h3 {font-family: bradley hand; 
