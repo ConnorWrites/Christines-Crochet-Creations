@@ -68,11 +68,11 @@
         action="https://www.freecodecamp.com/email-submit">
     <div class="name">Name: <input id="name" for="name"
            type="name" 
-           placeholder="John Doe"></input></div>
+           placeholder="John Doe"/></div>
     <div class="email">E-mail: <input id="email" 
            name="email" 
            type="email" 
-          placeholder="johndoe@email.com"></input></div>
+          placeholder="johndoe@email.com"/></div>
     <div class="text"><p class="query">Describe your order:</p><textarea id="textbox" 
            name="textbox" 
            type="textbox"
@@ -80,12 +80,19 @@
            cols="40" 
            placeholder="Describe your order, including all details and measurements." ></textarea></div>
    </form></div>
-			<div class="radios"><input class="choose" type="radio" selected >Toy</input>
-		<input class="choose" type="radio">Clothing</input>
-		<input class="choose" type="radio">Blanket</input>
-		<input class="choose" type="radio">Bag</input>
-		<input class="choose" type="radio">Gift</input>
-		</div>
+			<div class="radios">
+				<div>
+				<input class="choose" type="radio" value="toy" checked /><label for="toy">Toy</label>
+				</div>
+				<div><input class="choose" type="radio" value="clothing" /><label for="clothing">Clothing</label>
+				</div>
+				<div><input class="choose" type="radio" value="blanket" /><label for="blanket">Blanket</label>
+				</div>
+				<div><input class="choose" type="radio" value="bag" /><label for="bag">Bag</label>
+				</div>
+				<div><input class="choose" type="radio" value="Gift" /><label for="Gift">Gift</label>
+				</div>
+			</div>			
 	<button type="submit">Submit</button></div>
 </fieldset>
 </section>
