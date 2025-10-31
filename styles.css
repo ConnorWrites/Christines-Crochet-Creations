@@ -44,11 +44,11 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-.span {font-size: 3rem;
-       text-align: center;
-       justify-content: space-between;
-       color: rgb(137, 190, 255); 
-       margin-top: -10px; }
+span {font-size: 3rem;
+      text-align: center;
+      justify-content: space-between;
+      color: rgb(137, 190, 255); 
+      margin-top: -10px; }
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
