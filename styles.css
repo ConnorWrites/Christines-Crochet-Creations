@@ -59,9 +59,7 @@ h3 {font-family: bradley hand;
          flex-direction: row;
          padding: 10px;
          justify-content:space-evenly; }
-.radios {display: flex;
-         flex-direction: column;
-         padding: 15px; }
+.radios {padding: 15px; }
 button {--c: red;
         width: 200px;
         aspect-ratio: 1;
