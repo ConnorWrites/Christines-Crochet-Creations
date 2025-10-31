@@ -30,7 +30,7 @@ body { background: #FFD1DC; }
 .nav a {text-decoration: none;
         color: black;
         font-weight: 500; 
-        gap: 8vw; }
+        gap: 20px; }
 .nav a:hover {color: #ff379b; }
 .welcome {text-align: center; 
           font-size: 2rem; 
@@ -45,7 +45,7 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-span {display: inline-block;
+span {display: inline;
       font-size: 3rem;
       justify-content: space-evenly;
       color: rgb(137, 190, 255); 
