@@ -44,7 +44,9 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-span {font-size: 3rem;
+span {display: flex;
+      flex-direction:row;
+      font-size: 3rem;
       justify-content: space-evenly;
       color: rgb(137, 190, 255); 
       margin-top: -10px; }
