@@ -73,9 +73,9 @@ button:hover {color: #ff379b; }
                            font-weight: 300; }
 .icons {display: flex; 
         flex-direction: row;
-        font-size: 3rem;
+        font-size: 4rem;
         justify-content: space-evenly;
-        padding: 25px; }
+        padding: 35px; }
 .icons:hover {color: #ff379b; }
 video {display: block;
        margin-right: auto;
