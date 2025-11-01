@@ -74,9 +74,9 @@ button:hover {color: #ff379b; }
 .icons {display: flex; 
         flex-direction: row;
         font-size: 4rem;
-        justify-content: space-evenly;
-        padding: 35px; }
+        justify-content: space-evenly; }
 .icons:hover {color: #ff379b; }
+.icon1 .icon2 {padding: 25px; }
 video {display: block;
        margin-right: auto;
        margin-left: auto;
