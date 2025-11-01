@@ -73,8 +73,6 @@ button:hover {color: #ff379b; }
 .custom .query .christine {  }
 .icons {display: flex; 
         flex-direction: row;
-        padding: 25px;
-        margin-bottom: 10px;
         font-size: 4rem;
         justify-content: space-evenly; }
 .icons:hover {color: #ff379b; }
