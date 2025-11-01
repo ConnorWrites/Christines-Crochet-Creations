@@ -42,7 +42,9 @@ textPath {font-size: 2.3rem;
               width: 200px; 
               height: auto; 
               margin-bottom: -75px; }
-.divisions {font-size: 3rem;
+.divisions {display:flex;
+            flex-direction: row;
+            font-size: 3rem;
             color: rgb(137, 190, 255); 
             margin-top: -10px; }
 h3 {font-family: bradley hand; 
