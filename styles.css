@@ -17,8 +17,7 @@ body { background: lightgray; }
        border: 1px solid #ff379b;
        float: left;
        margin-right: 30px; }
-.nav {display: flex;
-      flex-direction:row;
+.nav {display: inline; 
       list-style: none;
       margin-left: 20px;
       padding: 0;
@@ -72,8 +71,9 @@ button:hover {color: #ff379b; }
                            font-weight: 300; }
 .icons {display: flex; 
         flex-direction: row;
-        font-size: 4rem;
-        justify-content: space-evenly; }
+        font-size: 3rem;
+        justify-content: space-evenly;
+        padding: 25px; }
 .icons:hover {color: #ff379b; }
 video {display: block;
        margin-right: auto;
@@ -123,7 +123,7 @@ video {display: block;
           transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
 footer {text-align: center; 
-        font-size: 2rem; 
+        font-size: 1.5rem; 
         Padding: 35px; }
 
 @media (max-width: 700px) {
