@@ -44,6 +44,7 @@ textPath {font-size: 2.3rem;
               margin-bottom: -75px; }
 .divisions {display:flex;
             flex-direction: row;
+            justify-content: space-between;
             font-size: 3rem;
             color: rgb(137, 190, 255); 
             margin-top: -10px; }
