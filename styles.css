@@ -47,6 +47,7 @@ textPath {font-size: 2.3rem;
             display:flex;
             flex-direction: row;
             justify-content: space-between;
+            text-align: center;
             font-size: 3rem;
             color: rgb(137, 190, 255); 
             margin-top: -15px;
