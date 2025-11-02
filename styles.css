@@ -77,10 +77,10 @@ button {--c: red;
         margin-top: -50px;
         font-size: 2rem; }
 button:hover {color: #ff379b; }
-.info .orders .about .gallery {width: 100vw; 
-                               margin-top: 50px; }
-.custom .query .christine {font-size: 1.6rem;
-                           font-weight: 200; }
+.info, .orders, .about, .gallery {width: 100vw; 
+                                  margin-top: 30px; }
+.custom, .query, .christine {font-size: 1.6rem;
+                             font-weight: 200; }
 .icons {display: inline-block;
         font-size: 4rem;
         text-align: center; }
