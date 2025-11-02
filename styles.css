@@ -91,7 +91,8 @@ button:hover {color: #ff379b; }
 .icon2 {position: relative;
         top: 40px;
         right: 40px; }
-video {display: block; }
+video {display: block;
+       padding: 10px; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
