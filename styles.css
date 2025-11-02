@@ -90,10 +90,7 @@ button:hover {color: #ff379b; }
 .icon2 {position: relative;
         top: 40px;
         right: 40px; }
-video {display: block;
-       margin-right: auto;
-       margin-left: auto;
-       padding: 10px; }
+video {display: block; }
 .pics {width: 80%; 
        margin: 100px auto 50px; 
        display: grid; 
