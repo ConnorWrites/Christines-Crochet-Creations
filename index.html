@@ -77,17 +77,24 @@
         class="form" 
         action="https://www.freecodecamp.com/email-submit">
     <div class="name">Name: <input id="name" for="name"
-           type="name" 
+           type="text"
+			name="name"
+			required
+			font-size="1.6rem" 
            placeholder="John Doe"/></div>
     <div class="email">E-mail: <input id="email" 
            name="email" 
            type="email" 
+			font-size="1.6rem"
+		   required
           placeholder="johndoe@email.com"/></div>
     <div class="text"><p class="query">Describe your order:</p><textarea id="textbox" 
            name="textbox" 
            type="textbox"
            rows="5"
            cols="40" 
+		   font-size="1.6rem"
+		required
            placeholder="Describe your order, including all details and measurements." ></textarea></div>
    </form></div>			
 	<button type="submit">Submit</button></div>
