@@ -28,8 +28,7 @@ h2 {font-size: 2rem; }
       font-size: 1.2rem; }
 .nav a {text-decoration: none;
         color: black;
-        font-weight: 500;
-        width: 15%; }
+        font-weight: 500; }
 .nav a:hover {color: #ff379b; }
 .welcome {text-align: center; 
           font-size: 2rem; 
