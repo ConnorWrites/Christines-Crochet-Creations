@@ -18,7 +18,7 @@ body { background: lightgray; }
        position: absolute;
        top: 0px;
        left: 0px;
-       margin-left: 25px; }
+       margin-right: 35px; }
 .nav {display: flex;
       flex-direction: row;
       justify-content: space-between;
