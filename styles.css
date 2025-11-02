@@ -80,15 +80,16 @@ button:hover {color: #ff379b; }
                                padding-top:45px; }
 .custom .query .christine {font-size: 1.6rem;
                            font-weight: 200; }
-.icons {display: flex; 
-        flex-direction: row;
+.icons {display: inline-block;
         font-size: 4rem;
         text-align: center; }
 .icons:hover {color: #ff379b; }
-.icon1 {margin-left: 20px;
-        margin-right: auto; }
-.icon2 {margin-left: auto;
-        margin-right: 20px; }
+.icon1 {position: relative;
+        top: 40px;
+        left: 40px; }
+.icon2 {position: relative;
+        top: 40px;
+        right: 40px; }
 video {display: block;
        margin-right: auto;
        margin-left: auto;
