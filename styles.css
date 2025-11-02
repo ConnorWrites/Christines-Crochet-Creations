@@ -18,7 +18,7 @@ body { background: lightgray; }
        position: absolute;
        top: 0px;
        left: 0px;
-       margin-right: 35px; }
+       margin-right: 55px; }
 .nav {display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -52,7 +52,7 @@ textPath {font-size: 2.3rem;
             font-size: 3rem;
             color: rgb(137, 190, 255); 
             margin-top: -30px;
-            margin-left: 45px; }
+            margin-left: 50px; }
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
