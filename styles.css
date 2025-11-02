@@ -84,12 +84,6 @@ button:hover {color: #ff379b; }
         font-size: 4rem;
         text-align: center; }
 .icons:hover {color: #ff379b; }
-.icon1 {position: relative;
-        top: 20px;
-        left: 20px; }
-.icon2 {position: relative;
-        top: 20px;
-        right: 20px; }
 video {display: block;
        padding: 10px; }
 .pics {width: 80%; 
