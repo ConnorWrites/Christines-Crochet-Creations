@@ -15,8 +15,9 @@ body { background: lightgray; }
 .logo {height: 7vh;
        width: auto;
        border: 0.5px solid #ff379b;
-       float: left;
-       margin-right: 30px; }
+       position: absolute;
+       top: 0px;
+       left: 0px; }
 .nav {display: flex;
       flex-direction: row;
       justify-content: space-between;
