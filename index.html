@@ -61,24 +61,24 @@
 	<fieldset>
 		<legend><h2>Orders & Enquiries.</h2></legend>
 		<p class="custom">Custom made and hand crafted for every customer!</p>
-		<div class="inputs">
+		<form id="form" 
+        class="form" 
+        action="https://formsubmit.co/christine.wilken194@gmail.com" method="post">
+    <div class="inputs">
 			<div class="radios">
 				<div>
-				<input class="choose" type="radio" value="toy" checked /><label for="toy">Toy</label>
+				<input class="choose" id="radio1" type="radio" name="creation" value="toy" checked /><label for="toy">Toy</label>
 				</div>
-				<div><input class="choose" type="radio" value="clothing" /><label for="clothing">Clothing</label>
+				<div><input class="choose" id="radio2" type="radio" name="creation" value="clothing" /><label for="clothing">Clothing</label>
 				</div>
-				<div><input class="choose" type="radio" value="blanket" /><label for="blanket">Blanket</label>
+				<div><input class="choose" id="radio3" type="radio" name="creation" value="blanket" /><label for="blanket">Blanket</label>
 				</div>
-				<div><input class="choose" type="radio" value="bag" /><label for="bag">Bag</label>
+				<div><input class="choose" id="radio4" type="radio" name="creation" value="bag" /><label for="bag">Bag</label>
 				</div>
-				<div><input class="choose" type="radio" value="Gift" /><label for="Gift">Gift</label>
+				<div><input class="choose" id="radio5" type="radio" name="creation" value="Gift" /><label for="Gift">Gift</label>
 				</div>
 			</div>
-		<div><form id="form" 
-        class="form" 
-        action="https://www.freecodecamp.com/email-submit">
-    <div class="name">Name: <input id="name" for="name"
+		<div><div class="name">Name: <input id="name" for="name"
            type="text"
 			name="name"
 			required
@@ -98,8 +98,8 @@
 		   font-size="1.6rem"
 		required
            placeholder="Describe your order, including all details and measurements." ></textarea></div>
-   </form></div>			
-	<button type="submit">Submit</button></div>
+   </div>			
+	<button type="submit">Submit</button></div></form>
 </fieldset>
 </section>
 
