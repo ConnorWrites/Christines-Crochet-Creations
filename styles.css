@@ -1,6 +1,7 @@
 * {font-family: marker felt, bradley hand, book antiqua, times new roman; }
 body {background: #e8e9eb; }
 h2 {font-size: 2rem; }
+p {width:100%; }
 .menu {width: 100%;
        height: 7vh;
        background: linear-gradient(90deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff);
