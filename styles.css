@@ -55,6 +55,8 @@ textPath {font-size: 2.3rem;
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
+.owl {text-align: center;
+      font-size: 2rem; }
 .browse {font-size: 1.3rem; 
          text-align: center; 
          color: rgb(137, 190, 255); }
@@ -76,7 +78,7 @@ button {--c: red;
         font-size: 2rem; }
 button:hover {color: #ff379b; }
 .info .orders .about .gallery {width: 100vw; 
-                               margin-top:35px; }
+                               margin-top: 50px; }
 .custom .query .christine {font-size: 1.6rem;
                            font-weight: 200; }
 .icons {display: inline-block;
