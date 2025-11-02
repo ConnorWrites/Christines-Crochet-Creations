@@ -61,7 +61,8 @@ h3 {font-family: bradley hand;
 .inputs {display: flex;
          flex-direction: row;
          padding: 10px;
-         justify-content:space-evenly; }
+         justify-content:space-evenly; 
+         font-size: 1.7rem; }
 .radios {padding: 15px;
          float: left; }
 button {--c: red;
@@ -75,8 +76,8 @@ button {--c: red;
         font-size: 2rem; }
 button:hover {color: #ff379b; }
 .info .orders .about .gallery {width: 100vw; 
-                               padding-top:25px; }
-.custom .query .christine {font-size: 1.5rem;
+                               padding-top:45px; }
+.custom .query .christine {font-size: 1.6rem;
                            font-weight: 200; }
 .icons {display: flex; 
         flex-direction: row;
