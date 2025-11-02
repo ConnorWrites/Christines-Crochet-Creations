@@ -79,7 +79,7 @@ button {--c: red;
 button:hover {color: #ff379b; }
 .info, .orders, .about, .gallery {width: 100vw; 
                                   margin-top: 30px; }
-.custom, .query, .christine {font-size: 1.6rem;
+.custom, .query, .christine {font-size: 1.2rem;
                              font-weight: 200; }
 .icons {display: inline-block;
         font-size: 4rem;
