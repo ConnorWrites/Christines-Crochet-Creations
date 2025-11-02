@@ -48,12 +48,10 @@ textPath {font-size: 2.3rem;
             display:flex;
             flex-direction: row;
             justify-content: space-between;
-            text-align: center;
             font-size: 3rem;
             color: rgb(137, 190, 255); 
-            margin-top: -15px;
-            margin-left: 10px;
-            margin-right: 10px; }
+            margin-top: -25px;
+            padding: 20px; }
 h3 {font-family: bradley hand; 
     font-size: 1.5rem;
     color: #B19CD9; }
