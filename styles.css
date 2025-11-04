@@ -3,8 +3,7 @@ body {background: #e8e9eb;
       margin: 0; }
 main {margin: 5px; }
 h2 {font-size: 4vw; }
-p {width:100%; }
-.menu {width: 100%;
+.menu {width: 100vw;
        height: 7vh;
        background: linear-gradient(90deg, #ffadad, #ffd6a5, #fdffb6, #caffbf, #9bf6ff, #a0c4ff, #bdb2ff, #ffc6ff);
        position: fixed;
@@ -24,21 +23,18 @@ p {width:100%; }
        left: 0px; }
 .nav {display: flex;
       flex-direction: row;
-      justify-content: space-between;
       list-style: none;
-      margin-left: 50px;
+      justify-content: space-between;
+      margin-left: 5vw;
       font-size: 2.5vw; }
 .nav a {text-decoration: none;
         color: black;
         font-weight: 500; }
 .nav a:hover {color: #ff379b; }
-.welcome {text-align: center; 
-          font-size: 6vw; 
-          margin-top: 50px; }
-textPath {font-size: 2.3rem; 
-          color: white;
-          fill: #77C3EC; 
-          margin-bottom: -25px; }
+.welcome {text-align: center;
+          margin-top: 4vh; }
+textPath {font-size: 5vh; 
+          fill: #77C3EC; }
 .welcome-img {display: block; 
               margin: 0 auto; 
               width: 200px; 
@@ -46,51 +42,47 @@ textPath {font-size: 2.3rem;
               margin-bottom: -75px; }
 .divisions {width:90%;
             height: auto;
-            display:flex;
-            flex-direction: row;
-            justify-content: space-between;
-            font-size: 3rem;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 4vw;
             color: rgb(137, 190, 255); 
-            margin-top: -30px;
-            margin-left: 50px; }
-h3 {font-family: bradley hand; 
-    font-size: 1.5rem;
-    color: #B19CD9; }
+            margin-top: -12vh;
+            margin-left: 4vw;}
 .owl {text-align: center;
       font-size: 4vw; }
-.browse {font-size: 1.3rem; 
+.owl2 {font-size: 2.5vw; 
+        width: 100%; }
+.browse {font-size: 3vw; 
          text-align: center; 
          color: rgb(137, 190, 255); }
-.inputs {display: flex;
+.inputs {width:100%;
+         height:auto;
+         display: flex;
          flex-direction: row;
          padding: 10px;
          justify-content:space-evenly; 
-         font-size: 1.4rem; }
-.radios {padding: 15px;
-         float: left; }
+         font-size: 3vw; }
 button {--c: red;
-        width: 200px;
-        aspect-ratio: 1;
-        background:   radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%,
-                      radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%,
-                      conic-gradient(from -45deg at 50% 79.5%,var(--c) 90deg,#0000 0) bottom/100% 50%;
-        background-repeat: no-repeat; 
+        width: 30vw;
+        aspect-ratio: 1; 
+  background: radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%, radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%, conic-gradient(from -45deg at 50% 80%,var(--c) 90deg,#0000 0) bottom/100% 50%;     background-repeat: no-repeat; 
         margin-top: -50px;
-        font-size: 2rem; }
+        font-size: 4vw; }
 button:hover {color: #ff379b; }
-.info, .orders, .about, .gallery {width: 100vw; 
-                                  margin-top: 30px; }
-.custom, .query, .christine {font-size: 1.2rem;
-                             font-weight: 200; }
+.info, .orders, .about, .gallery {width: 100%; }
+.custom, .query, .christine {font-size: 2.5vw; font-weight: 100; }
 .icons {display: flex;
         flex-direction: row; 
-        justify-content: space-between;
-        font-size: 4rem; }
+        justify-content: space-evenly;
+        font-size: 8vw; }
+.icon1, .icon2 {margin-top: 3vh; }
 .icons:hover {color: #ff379b; }
 video {display: block;
-       padding: 10px; }
+       padding: 10px; 
+       width:70vw;
+      height: auto;}
 .pics {width: 80%; 
-       margin: 50px auto 50px; 
+       margin: auto; 
        display: grid; 
        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
        grid-gap: 30px;}
@@ -133,15 +125,11 @@ video {display: block;
           transition: opacity 0.2s ease-in-out; }
 #fullImg.fade-out {opacity: 0; }
 footer {text-align: center; 
-        font-size: 1.5rem; 
+        font-size: 3vw; 
         Padding: 35px; }
 
-@media (max-width: 700px) {
-       .heading {flex-direction: column;
-                 justify-content: center;
-                 gap: 10px;
-                 height: auto;
-                 padding: 10px; }
-       .nav {flex-wrap: wrap;
-             justify-content: center; }
-       .menu {height: auto; } }
+@media(width <= 600px) { .inputs {display:flex;
+  flex-direction:column;}
+  button{ margin-top: 3vh;}
+  .radios{padding:10px; }}
+  
