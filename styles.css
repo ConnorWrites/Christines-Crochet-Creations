@@ -65,7 +65,7 @@ textPath {font-size: 5vh;
 button {--c: red;
         width: 30vw;
         aspect-ratio: 1; 
-  background: radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%, radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%, conic-gradient(from -45deg at 50% 85%,var(--c) 90deg,#0000 0) bottom/100% 50%;     background-repeat: no-repeat; 
+  background: radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%, radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%, conic-gradient(from -45deg at 50% 87%,var(--c) 90deg,#0000 0) bottom/100% 50%;     background-repeat: no-repeat; 
         margin-top: -50px;
         font-size: 4vw; }
 button:hover {color: #ff379b; }
