@@ -46,7 +46,7 @@ textPath {font-size: 5vh;
             justify-content: space-evenly;
             font-size: 4vw;
             color: rgb(137, 190, 255); 
-            margin-top: -12vh;
+            margin-top: -10vh;
             margin-left: 4vw;}
 .owl {text-align: center;
       font-size: 4vw; }
@@ -82,7 +82,7 @@ video {display: block;
        width:70vw;
       height: auto;}
 .pics {width: 80%; 
-       margin: auto; 
+       margin: 3vh auto; 
        display: grid; 
        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
        grid-gap: 30px;}
@@ -130,7 +130,6 @@ footer {text-align: center;
 
 @media(width <= 600px) { .inputs {display:flex;
   flex-direction:column;}
-  button{margin-top: 3vh;
-         width: 60vw}
+  button{ margin-top: 3vh; width: 60vw;}
   .radios{padding:10px; }}
   
