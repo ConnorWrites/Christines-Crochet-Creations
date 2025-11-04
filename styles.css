@@ -130,7 +130,7 @@ footer {text-align: center;
 
 @media(width <= 600px) { .inputs {display:flex;
   flex-direction:column;}
-  button{ margin-top: 3vh; width: 80vw;}
+  button{ margin-top: 3vh; width: 80vw; font-size: 8vw;}
   .radios{padding:10px; }
   .nav {font-size: 3vw;
         margin-left: -8px;
