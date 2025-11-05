@@ -138,11 +138,11 @@ footer {text-align: center;
         margin-top: 15px} }
   
 @media (width > 600px) {
-  .nav {font-size: 3vh; 
+  .nav {font-size: 20px; 
   margin-top: 1.5vh;}
   .divisions {margin-top: -5vh;}
   h2 {font-size:3vw; }
   .owl2, .christine {font-size: 2vw;}
   .owl {font-size:3vw; }
   .browse {font-size: 2.5vw;}
-  textPath {font-size: 4.5vh; } }
+  textPath {font-size: 40px; } }
