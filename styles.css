@@ -1,5 +1,5 @@
 * {font-family: marker felt, bradley hand, book antiqua, times new roman; }
-body {background: #e8e9eb;
+body {background: #ffcbc9;
       margin: 0; }
 main {margin: 5px; }
 h2 {font-size: 4vw; }
@@ -146,4 +146,4 @@ footer {text-align: center;
   .owl2, .christine {font-size: 2vw;}
   .owl {font-size:3vw; }
   .browse {font-size: 2.5vw;}
-  textPath {font-size: 40px; } }
+  textPath {font-size: 35px; } }
