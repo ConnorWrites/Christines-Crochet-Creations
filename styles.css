@@ -132,12 +132,11 @@ footer {text-align: center;
   flex-direction:column;}
   button{ margin-top: 3vh; width: 80vw; font-size: 8vw;}
   .radios{padding:10px; }
-  .nav {font-size: 3vw;
+  .nav {font-size: 2vw;
         margin-left: -8px;
         margin-right: -7px;
-        margin-top: 15px;} }
+        margin-top: 15px} }
   
-
 @media (width > 600px) {
   .nav {font-size: 3vh; 
   margin-top: 1.5vh;}
@@ -146,4 +145,4 @@ footer {text-align: center;
   .owl2, .christine {font-size: 2vw;}
   .owl {font-size:3vw; }
   .browse {font-size: 2.5vw;}
-  textPath {font-size: 4vh;}}
+  textPath {font-size: 6.5vh; } }
