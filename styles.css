@@ -138,7 +138,7 @@ footer {text-align: center;
         margin-top: 15px;} }
   
 
-@media (width > 700px) {
+@media (width > 600px) {
   .nav {font-size: 3vh; 
   margin-top: 1.5vh;}
   .divisions {margin-top: -5vh;}
