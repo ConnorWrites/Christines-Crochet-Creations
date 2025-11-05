@@ -33,7 +33,7 @@ h2 {font-size: 4vw; }
 .nav a:hover {color: #ff379b; }
 .welcome {text-align: center;
           margin-top: 4vh; }
-textPath {font-size: 5vh; 
+textPath {font-size: 6.3vh; 
           fill: #77C3EC; }
 .welcome-img {display: block; 
               margin: 0 auto; 
@@ -65,7 +65,7 @@ textPath {font-size: 5vh;
 button {--c: red;
         width: 30vw;
         aspect-ratio: 1; 
-  background: radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%, radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%, conic-gradient(from -45deg at 50% 85.5%,var(--c) 90deg,#0000 0) bottom/100% 50%;     background-repeat: no-repeat; 
+  background: radial-gradient(circle at 60% 65%,var(--c) 64%,#0000 65%) top left/50% 50%, radial-gradient(circle at 40% 65%,var(--c) 64%,#0000 65%) top right/50% 50%, conic-gradient(from -45deg at 50% 85%,var(--c) 90deg,#0000 0) bottom/100% 50%;     background-repeat: no-repeat; 
         margin-top: -50px;
         font-size: 4vw; }
 button:hover {color: #ff379b; }
@@ -135,9 +135,11 @@ footer {text-align: center;
   .nav {font-size: 3vw;
         margin-left: -8px;
         margin-right: -7px;
-        margin-top: 15px}}
+        margin-top: 15px} }
   
 @media (width > 700px) {
   .nav {font-size: 3vh; 
   margin-top: 1.5vh;}
-  .divisions {margin-top: -5vh;}}
+  .divisions {margin-top: -5vh;}
+  h2 {font-size:3.5vh; }
+  .owl2, .christine {font-size: 2vh;}}
